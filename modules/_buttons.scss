@@ -1,0 +1,57 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+
+$btn-color:             #fff !default;
+$btn-color-bg:          #53a1c5 !default;
+$btn-color-bg-hover:    lighten($btn-color-bg, 10%) !default;
+$btn-padding:           10px !default;
+$btn-margin:            5px !default;
+$btn-radius:			4px !default;
+$btn-font-size:			13px !default;
+$btn-font-family:      $base-font-family !default;
+
+.c-btn {
+	all: initial;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	padding: $btn-padding;
+	margin: $btn-margin;
+	border-radius: $btn-radius;
+	color: $btn-color;
+	background-color: $btn-color-bg;
+	font-size: $btn-font-size;
+	font-family: $btn-font-family;
+
+	&:hover,
+	&:active,
+	&:focus {
+		text-decoration: none;
+		background-color: $btn-color-bg-hover;
+	}
+
+	&[disabled],
+	&.is-disabled {
+		opacity: 0.5;
+		pointer-events: none;
+	}
+
+}
+
+.c-btn--small {
+	padding: round(0.5 * $btn-padding);
+}
+
+.c-btn--large {
+	padding: round(2.0 * $btn-padding);
+}
+
+.c-btn--full {
+	padding-right: 0;
+	padding-left:  0;
+	width: 100%;
+}

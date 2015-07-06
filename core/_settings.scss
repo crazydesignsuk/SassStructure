@@ -1,0 +1,75 @@
+// ------------------------------------
+// #SETTINGS
+// ------------------------------------
+
+// ------------------------------------
+// #BASE SETTINGS
+// ------------------------------------
+
+$base-font-size:		16px;
+$base-line-height:		24px;
+$base-text-color:		#333;
+$base-background-color:	#fff;
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-header-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+// ------------------------------------
+// #TYPOGRAPHY SETTINGS
+// ------------------------------------
+
+$heading-size-1:		3rem;
+$heading-lineheight-1:	1.05;
+$heading-size-2:		2.25rem;
+$heading-lineheight-2:	1.25;
+$heading-size-3:		1.75rem;
+$heading-lineheight-3:	1.25;
+$heading-size-4:		1.125rem;
+$heading-lineheight-4:	1.222222;
+$heading-size-5:		1rem;
+$heading-lineheight-5:	1.2;
+$heading-size-6:		0.85rem;
+$heading-lineheight-6:	1.2;
+
+$lead-size:	1.2;
+
+
+// ------------------------------------
+// #COLOR SETTINGS
+// ------------------------------------
+
+$color-primary:		#abc123;
+$color-secondary:	#abc123;
+
+$color-black:		#333333;
+$color-white:		#ffffff;
+
+
+// ------------------------------------
+// #MEDIA QUERY SETTINGS
+// ------------------------------------
+
+$tablet-width:	768px;
+$desktop-width:	1024px;
+
+
+// ------------------------------------
+// #BUTTON SETTINGS
+// ------------------------------------
+
+$btn-color:             #fff;
+$btn-color-bg:          $color-primary;
+$btn-color-bg-hover:    lighten($btn-color-bg, 10%);
+$btn-padding:           10px;
+$btn-margin:            5px;
+$btn-radius:			7px;
+$btn-font-size:			13px;
+// $btn-font-family:      sans-serif;
+
+
+// ------------------------------------
+// #DEBUG SETTINGS
+// ------------------------------------
+
+$pesticide-debug-outline: false;
+$pesticide-debug-depth: false;

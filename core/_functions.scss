@@ -1,0 +1,33 @@
+// ------------------------------------
+// #FUNCTIONS
+// ------------------------------------
+
+
+// useful to return rounded numbers
+
+@function quarter($number) {
+	@return round($number / 4);
+}
+
+@function halve($number) {
+	@return round($number / 2);
+}
+
+@function double($number) {
+	@return round($number * 2);
+}
+
+@function quadruple($number) {
+	@return round($number * 4);
+}
+
+// detects brightness and returns black or white
+
+@function dynamic-text-color($color) {
+	@if (lightness($color) > 60) {
+	    @return $color-black; // Lighter background, return dark color
+	} 
+	@else {
+	    @return $color-white; // Darker background, return light color
+	}
+}

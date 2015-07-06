@@ -1,0 +1,31 @@
+// ------------------------------------
+// #MIXINS
+// ------------------------------------
+
+
+// basic transition on all properties
+
+@mixin transition($time) {
+	transition: all $time ease-in-out;
+}
+
+
+// transition of specific property
+
+@mixin transitiontype($time, $type) {
+	transition: $type $time ease-in-out;
+}
+
+
+// font smoothing - useful on light text
+
+@mixin font-smoothing($value: on) {
+	@if $value == on {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	@else {
+		-webkit-font-smoothing: subpixel-antialiased;
+		-moz-osx-font-smoothing: auto;
+	}
+}

@@ -1,0 +1,48 @@
+/*---------------------------------------*\
+    #STYLES
+    ! change options in core/settings !
+\*---------------------------------------*/
+
+// ------------------------------------
+// #README
+// ------------------------------------
+// - This is my base starter for Sass styling
+// - Most changable bits are in core/settings so head there first
+// - Everything gets imported into here
+// - Resets are done with normalize
+// - There's some debug settings provided by Pesticide
+// - Components should be put if likeley to be reused
+// - page one off's should be put in pages
+// - eg. say you had a hero banner, but a homepage variation
+// - no styling options have been made so should be reusable
+// ------------------------------------
+
+// all the core stuff
+
+@import "core/normalize";
+@import "core/settings";
+@import "core/functions";
+@import "core/variables";
+@import "core/mediaqueries";
+@import "core/base";
+@import "core/grid";
+@import "core/typography";
+
+
+// all the module stuff
+
+@import "modules/buttons";
+@import "modules/navigation";
+@import "modules/header";
+@import "modules/footer";
+@import "modules/modal";
+
+
+// all the page specific stuff
+
+@import "pages/home";
+
+
+// layer debugging
+
+@import "core/debug";

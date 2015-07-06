@@ -1,0 +1,27 @@
+// ------------------------------------
+// #VARIABLES
+// these are all set in settings
+// these are here for default fallbacks
+// ------------------------------------
+
+
+$base-font-size:			16px !default;
+$base-line-height:			24px !default;
+$base-text-color:			#333 !default;
+$base-background-color:		#fff !default;
+
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-header-font-family: $base-font-family !default;
+
+$heading-size-1:		3rem !default;
+$heading-size-2:		2.25rem !default;
+$heading-size-3:		1.75rem !default;
+$heading-size-4:		1.125rem !default;
+$heading-size-5:		1rem !default;
+$heading-size-6:		0.85rem !default;
+
+$color-primary:		#3498db !default;
+$color-secondary:	#e67e22 !default;
+
+$color-black:		#000000 !default;
+$color-white:		#ffffff !default;

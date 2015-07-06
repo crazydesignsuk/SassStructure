@@ -1,0 +1,73 @@
+/*---------------------------------------*\
+    #TYPOGRAPHY
+\*---------------------------------------*/
+
+
+/* global bottom margin keeps sweet vertical rhythm */
+
+h1, h2, h3, h4, h5, h6,
+ul, ol, dl,
+blockquote, p, address,
+hr,
+table,
+fieldset, figure,
+pre,
+%margin-bottom {
+	margin-bottom: $base-spacing-unit;
+	margin-bottom: ($base-spacing-unit / $base-font-size) * 1rem;
+}
+
+ul, ol, dd,
+%margin-left {
+	margin-left: 2 * $base-spacing-unit;
+	margin-left: (2 * $base-spacing-unit / $base-font-size) * 1rem;
+}
+
+
+/* headers */
+
+.alpha,
+%alpha {
+	font-size: $heading-size-1;
+	line-height: $heading-lineheight-1;
+}
+
+.beta,
+%beta {
+	font-size: $heading-size-2;
+	line-height: $heading-lineheight-2;
+}
+
+.gamma,
+%gamma {
+	font-size: $heading-size-3;
+	line-height: $heading-lineheight-3;
+}
+
+.delta,
+%delta {
+	font-size: $heading-size-4;
+	line-height: $heading-lineheight-4;
+}
+
+.epsilon,
+%epsilon {
+	font-size: $heading-size-5;
+	line-height: $heading-lineheight-5;
+}
+
+.zeta,
+%zeta {
+	font-size: $heading-size-6;
+	line-height: $heading-lineheight-6;
+}
+
+
+/* lead paragraph */
+
+$lead-size:	1.125 !default;
+
+.lead,
+%lead {
+	font-size: $lead-size;
+}
